@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.1</Version>
+    <Authors>Tcqz</Authors>
+    <Company>Skonda</Company>
+    <Description>测试用控制台程序</Description>
+    <Copyright>MIT</Copyright>
+    <PackageReleaseNotes>更新1.0.1版本</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tcqz.Configuration.ConfigurationManager\Tcqz.Configuration.ConfigurationManager.csproj" />
+  </ItemGroup>
+
+</Project>
